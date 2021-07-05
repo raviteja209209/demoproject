@@ -11,7 +11,6 @@ System.out.println(" length of first name is "+name.length());
 System.out.println("first name in upper case "+name.toUpperCase());
 System.out.println("first name in lower case "+name.toLowerCase());
 System.out.println("first name &Last name "+name.concat(name1));
-System.out.println("first name in upper case "+name.concat(name1));
  if(name.startsWith("r"))
  {
 	 System.out.println(name+"  name starts with  'r' ");
@@ -25,5 +24,13 @@ System.out.println("first name in upper case "+name.concat(name1));
  {
 	 System.out.println("first name &Last name are notsame-------------!"); 
 }
+  String name2 = "ravi teja cheepuri";
+  System.out.println("the name is "+name2.trim());
+  String p[]=name2.split(" ");
+  for(int i=0;i<p.length;i++)
+  {
+	  System.out.println(p[i]);  
+  }
 }
+
 }
